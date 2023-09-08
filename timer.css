@@ -1,0 +1,56 @@
+body{
+    background-image: url("timer.jpg");
+    background-size: cover;
+    margin-top: 0%;
+    height: 600px;
+    width: 98%;
+}
+.timer{
+    width: 300px;
+    margin: 15% 3% auto;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(8, 0, 255);
+    padding: 10%;
+    padding-top: 7%;
+    background-color: yellowgreen;
+}
+#display{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+.input-container{
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-container label{
+    margin-right: 10px;
+    text-align: left;
+}
+
+input{
+    padding: 4px;
+}
+
+.btn{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover{
+    background-color: #0056b3;
+}
